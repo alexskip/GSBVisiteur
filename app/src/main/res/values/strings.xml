@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">GSB</string>
+    <string name="main_activity_description">Organisez vos rapports de visites et frais professionnels en étant hors ligne !</string>
+
+    <!-- COMMON -->
+    <string name="title_trip_book">Rapports de visite</string>
+    <string name="title_todo_list">Frais professionnels</string>
+    <string name="title_permission">Cette application a besoin de permission pour fonctionner</string>
+    <string name="error_happened">Une erreur s\'est produite !</string>
+
+    <!-- TRIP BOOK ACTIVITY -->
+    <string name="saved">Enregistré</string>
+    <string name="external_storage_impossible_create_file">Impossible de créer un fichier sur l\'espace de stockage externe</string>
+
+    <string name="question_storage_writing">Dans quel stockage souhaitez-vous écrire ?</string>
+    <string name="question_storage_writing_external">Externe</string>
+    <string name="question_storage_writing_internal">Interne</string>
+
+    <string name="question_storage_privacy">Quel niveau de confidentialité souhaitez-vous ?</string>
+    <string name="question_storage_privacy_private">Privé</string>
+    <string name="question_storage_privacy_public">Public</string>
+
+    <string name="question_storage_cache">Souhaitez-vous stocker le fichier en cache ?</string>
+    <string name="question_storage_cache_yes">Oui</string>
+    <string name="question_storage_cache_no">Non</string>
+
+    <!--
+    Modification apparence saisie de texte dans menu "Rapports de visite"
+    <string name="trip_book_edit_text_placeholder">Commence à écrire ton voyage ici&#8230;</string>
+    -->
+    <string name="trip_book_edit_text_placeholder">Veuillez saisir les rapports ici&#8230;</string>
+    <string name="trip_book_button">Enregistrer</string>
+    <string name="trip_book_share">Partager votre rapport</string>
+
+    <!-- TODOLIST ACTIVITY -->
+    <!--
+    Modification apparence menu "Frais professionnels"
+    <string name="todolist_things_todo">Ajouter une chose a faire&#8230;</string>
+    -->
+    <string name="todolist_things_todo">Ajouter un frais&#8230;</string>
+    <string name="todolist_button_add">Ajouter</string>
+
+    <!--    Modification menu deroulant dans menu "Frais professionnels"
+    Ancienne liste ci dessous :
+    <string-array name="category_array">
+        <item>A visiter</item>
+        <item>Idées</item>
+        <item>Restaurants</item>
+    </string-array>
+
+    Nouvelle Liste ici :
+    -->
+    <string-array name="category_array">
+        <item>Nuitée</item>
+        <item>Kilométrage</item>
+        <item>Repas Midi</item>
+    </string-array>
+</resources>
